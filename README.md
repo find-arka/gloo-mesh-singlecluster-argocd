@@ -100,7 +100,7 @@ Gloo Mesh can be installed and configured easily using Helm + Argo CD. To instal
 
 First we will deploy the Gloo Platform CRD helm chart using an Argo Application
 ```bash
-export GLOO_MESH_VERSION=2.4.7;
+export GLOO_MESH_VERSION=2.5.0;
 
 kubectl apply --context "${MY_CLUSTER_CONTEXT}" -f- <<EOF
 apiVersion: argoproj.io/v1alpha1
